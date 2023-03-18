@@ -52,4 +52,10 @@ body .body-content .page-content .button-box #button {
   padding: 5px 25px;
   border: solid black 2px;
   border-radius: 8px;
+}
+html .body-content .page-content .button-box #button:hover,
+body .body-content .page-content .button-box #button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
