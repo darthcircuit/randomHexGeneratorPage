@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: teal;
+  font-family: "lato";
+}
+html .body-content .title-bar,
+body .body-content .title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: aliceblue;
+  height: 30px;
+  width: 100%;
+}
+html .body-content .title-bar p,
+body .body-content .title-bar p {
+  padding-left: 50px;
+  color: cornflowerblue;
+}
+html .body-content .page-content .button-box,
+body .body-content .page-content .button-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+html .body-content .page-content .button-box .text-node,
+body .body-content .page-content .button-box .text-node {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: black;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 0 15px;
+}
+html .body-content .page-content .button-box .text-node p,
+body .body-content .page-content .button-box .text-node p {
+  color: white;
+}
+html .body-content .page-content .button-box .text-node #randTextNode,
+body .body-content .page-content .button-box .text-node #randTextNode {
+  padding-left: 5px;
+  color: cornflowerblue;
+}
+html .body-content .page-content .button-box #button,
+body .body-content .page-content .button-box #button {
+  padding: 5px 25px;
+  border: solid black 2px;
+  border-radius: 8px;
+}/*# sourceMappingURL=styles.css.map */
